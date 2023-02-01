@@ -19,11 +19,49 @@ body {
 .credentials {
     padding: 3%;
     align-self: center;
-    border-style: solid;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
     border-color: #333;
     padding-right: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+.container {
+    padding: 3%;
+    background:#fff;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    align-self: center;
+    padding: 15px;
+}
+
+
+.container1 .container2 {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.split {
+    flex-basis: 30%;
+    padding:10px
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+.details p1 {
+    font-weight: bold;
 }
 
 .step-wizard {
