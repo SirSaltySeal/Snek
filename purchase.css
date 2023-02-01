@@ -16,6 +16,16 @@ body {
     padding: 10px;
 }
 
+.credentials {
+    padding: 3%;
+    align-self: center;
+    border-style: solid;
+    border-color: #333;
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .step-wizard {
     display: flex;
     flex-direction: column;
