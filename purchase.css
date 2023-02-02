@@ -59,6 +59,14 @@ img {
     padding-bottom: 10px;
 }
 
+.container3 table {
+    width: 120%;
+}
+
+.left {
+    text-align: left;
+}
+
 .align {
     padding-left: 300px;
     padding-right: 300px;
