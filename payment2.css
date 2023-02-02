@@ -9,7 +9,7 @@ body {
 
 .container{
     min-height: 100vh;
-    background: #eee;
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,6 +19,7 @@ body {
 
 .container form{
     background: #fff;
+    background: #D2E9FF;;
     border-radius: 5px;
     box-shadow: 0 10px 15px rgba(0,0,0,.1);
     padding: 20px;
@@ -32,7 +33,7 @@ body {
 
 .container form .inputBox span{
     display: block;
-    color:#999;
+    color:black;
     padding-bottom: 5px;
 }
 
@@ -56,7 +57,7 @@ body {
 
 .container form .submit-btn{
     width: 100%;
-    background:linear-gradient(45deg, blueviolet, deeppink);
+   background: black;
     margin-top: 20px;
     padding: 10px;
     font-size: 20px;
