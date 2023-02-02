@@ -5,9 +5,6 @@
 }
 body {
     font-family: "Poppins", sans-serif;
-    display: flex;
-    flex-direction: column;
-    background:#D2E9FF;
 }
 
 .text-center {
@@ -19,84 +16,6 @@ body {
     background: white;
     padding: 20px 0px;
 }
-
-.credentials {
-    background: white;
-    padding: 3%;
-    align-self: center;
-    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
-    padding-right: 20%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-input:focus, textarea:focus, select:focus {
-    outline: none;
-}
-
-.container1 {
-    align-self: center;
-    background: #fff;
-    margin-top: 15px;
-    padding: 15px;
-}
-
-
-.container1 .container2 {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-.split {
-    flex-basis: 30%;
-    padding:10px
-}
-
-img {
-    height: 200px;
-    width: auto;
-}
-
-.container3 {
-    margin-top: 10px;
-    margin-bottom: 10px; 
-    padding-bottom: 10px;
-}
-
-.container3 table {
-    width: 100%;
-}
-
-.right {
-    text-align: right;
-}
-
-
-.align {
-    padding-left: 400px;
-    padding-right: 400px;
-}
-
-
-.container-fluid .container4 {
-    background: white;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.button {
-    background: black;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
 
 .step-wizard {
     display: flex;
