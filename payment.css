@@ -7,6 +7,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.container-fluid1 {
+    background: #D2E9FF;
+}
+
 .container-fluid2 {
     background:#D2E9FF;
     text-align: center;
