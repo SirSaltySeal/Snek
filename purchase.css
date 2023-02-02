@@ -7,13 +7,18 @@ body {
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
-    background: #F5F0F0;
+    background:#D2E9FF;
+}
+
+.text-center {
+    margin: 0px 0px 0px;
+
 }
 
 .container-fluid {
-    font-size: 30px;
+    font-size: 20px;
     background: white;
-    padding-bottom: 5px;
+    padding: 20px 0px;
 }
 
 .credentials {
@@ -68,8 +73,8 @@ img {
 }
 
 .align {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 
