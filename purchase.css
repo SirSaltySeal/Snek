@@ -12,6 +12,8 @@ body {
 
 .container-fluid {
     font-size: 30px;
+    background: white;
+    padding-bottom: 5px;
 }
 
 .credentials {
@@ -28,22 +30,15 @@ input:focus, textarea:focus, select:focus {
     outline: none;
 }
 
-.container {
-    padding: 3%;
-    background:#fff;
-    align-self: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .container1 {
     align-self: center;
+    background: #fff;
+    margin-top: 15px;
     padding: 15px;
 }
 
 
 .container1 .container2 {
-    background: #fff;
     display: flex;
     flex-wrap: wrap;
   }
@@ -59,14 +54,22 @@ img {
 }
 
 .container3 {
-    display: flex;
-    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px; 
     padding-bottom: 10px;
 }
 
-.container4 {
+.align {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+.container-fluid .container4 {
+    background: white;
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .button {
