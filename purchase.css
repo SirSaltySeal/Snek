@@ -65,12 +65,13 @@ img {
 }
 
 .container3 table {
-    width: 120%;
+    width: 100%;
 }
 
-.left {
-    text-align: left;
+.right {
+    text-align: right;
 }
+
 
 .align {
     padding-left: 400px;
