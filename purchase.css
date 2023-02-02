@@ -7,20 +7,18 @@ body {
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: column;
+    background: #F5F0F0;
 }
 
-.bag {
-    background: #fff;
-    font-size: 30px; 
-    align-self: center;
-    padding: 10px;
+.container-fluid {
+    font-size: 30px;
 }
 
 .credentials {
+    background: white;
     padding: 3%;
     align-self: center;
     box-shadow: 0 5px 25px rgba(0,0,0,0.1);
-    border-color: #333;
     padding-right: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
