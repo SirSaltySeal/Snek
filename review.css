@@ -8,12 +8,28 @@ body {
     display: flex;
     flex-direction: column;
     background:white;
+    height: 100vh;
+}
+
+.container {
+    padding: 0px 200px;
+    position: relative;
+    top: 15px;
+}
+
+.container table {
+    width: 100%;
+   
+}
+
+.right {
+    text-align: right;
 }
 
 .container-fluid {
     font-size: 20px;
     background: white;
-    padding: 20px 0px;
+    padding: 0px 0px 0px;
 }
 
 .container-fluid2 {
@@ -62,10 +78,23 @@ hr {
 }
 
 .container-fluid .container4 {
-    background: white;
+    background:#D2E9FF;
     display: flex;
     justify-content: center;
     padding: 20px;
+    position: relative;
+    top: 110px;
+}
+
+.container-fluid4 {
+    position: relative;
+    top: 100px;
+    background: white;
+}
+
+.container-fluid4 .text-center {
+    padding-bottom: 5px;
+    margin: 0px 10px;
 }
 
 .button {
