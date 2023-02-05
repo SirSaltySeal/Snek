@@ -23,24 +23,36 @@ body {
     padding: 0px 0px;
 }
 
-.container-fluid3 .text-left1 {
+.container-fluid3 .container1 {
+    display: flex;
+    justify-content: space-between;
     padding: 0px 400px;
+}
+
+.container-fluid3 .container1 .text-left {
     font-weight: bold;
 }
 
-.container-fluid3 .text-left2 {
+.container-fluid3 .container2 {
+    display: flex;
+    justify-content: space-between;
     padding: 0px 400px;
+}
+
+.container-fluid3 .container2 .text-left {
     font-weight: bold;
 }
 
-.container-fluid3 .text-left3 {
+.container-fluid3 .container3 {
+    display: flex;
+    justify-content: space-between;
     padding: 0px 400px;
+}
+
+.container-fluid3 .container3 .text-left {
     font-weight: bold;
 }
 
-.container-fluid3 .text-right {
-    padding: 0px 400px;
-}
 
 hr {
     height: 0.5px;
