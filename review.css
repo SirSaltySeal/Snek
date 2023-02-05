@@ -10,6 +10,45 @@ body {
     background:white;
 }
 
+.container-fluid {
+    font-size: 20px;
+    background: white;
+    padding: 20px 0px;
+}
+
+.container-fluid2 {
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    padding: 0px 0px;
+}
+
+.container-fluid3 .text-left1 {
+    padding: 0px 400px;
+    font-weight: bold;
+}
+
+.container-fluid3 .text-left2 {
+    padding: 0px 400px;
+    font-weight: bold;
+}
+
+.container-fluid3 .text-left3 {
+    padding: 0px 400px;
+    font-weight: bold;
+}
+
+.container-fluid3 .text-right {
+    padding: 0px 400px;
+}
+
+hr {
+    height: 0.5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
 .container-fluid .container4 {
     background: white;
     display: flex;
@@ -36,6 +75,7 @@ body {
     justify-content: start;
     align-items: center;
 }
+
 .step-wizard-list{
     color: #333;
     list-style-type: none;
@@ -44,6 +84,7 @@ body {
     padding: 20px 10px;
     position: relative;
     z-index: 10;
+    padding: 0px 0px 0px;
 }
 
 .step-wizard-item{
