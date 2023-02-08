@@ -1,3 +1,5 @@
-body svg{
-    text-align: center;
+body {
+    padding: 200px;
+    display: flex;
+    justify-content: center ;
 }
