@@ -9,22 +9,98 @@ body {
     position: relative;
 }
 
+.container-fluid7 img {
+    padding: 0px 10px;
+}
+
+.navbar-links a {
+    padding: 0px 0px 0px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+.bag {
+    display: flex;
+    justify-content: center;
+}
+.wishlist {
+    display: flex;
+    justify-content: center;
+}
+.account {
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid1 {
+    background:#D2E9FC;
+}
+
+.container-fluid2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 400px;
+}
+
+.container-fluid3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 400px;
+}
+
+.container-fluid4 {
+    position: relative;
+    left: 400px;
+    font-size: large;
+}
+
+.container-fluid5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 400px;
+    
+}
+
+.container-fluid6 {
+    position: relative;
+    left: 400px;
+    font-size: large;
+    padding-top: 15px;
+    
+}
+
+.container-fluid7 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 400px;
+    flex-wrap: wrap;
+}
+
+.container-fluid9 {
+    position: relative;
+    left: 400px;
+    font-size: large;
+    padding-top: 15px;
+}
+
+.container-fluid10 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 400px;
+    flex-wrap: wrap;
+}
+
 
 .navbar {
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
     color: white;
 }
-
-    img {
-        position: relative;
-        right: 0.5rem;
-    }
-
-
 
 .toggle-button {
     display: flex;
@@ -38,9 +114,9 @@ body {
 }
 
 .toggle-button .bar {
-    height: 3px;
+    height: 4px;
     width: 100%;
-    background-color: white;
+    background-color: black;
     border-radius: 10px;
 }
 
@@ -72,7 +148,7 @@ body {
         padding: .5rem 1rem;
         display: block;
         text-decoration: none;
-        color: white;
+        color: black;
         padding: 1rem;   
  }
 
