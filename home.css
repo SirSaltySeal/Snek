@@ -36,6 +36,8 @@ body {
 
 .container-fluid1 {
     background:#D2E9FC;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .container-fluid2 {
@@ -91,6 +93,14 @@ body {
     justify-content: space-between;
     padding: 10px 400px;
     flex-wrap: wrap;
+}
+
+.container-fluid11 {
+    font-size: small;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 50px;
 }
 
 
