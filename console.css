@@ -103,6 +103,20 @@ body {
    top: 50px;
 }
 
+.container-fluid12 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 400px;
+    flex-wrap: wrap;
+}
+
+.container-fluid13 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 400px;
+    flex-wrap: wrap;
+}
+
 
 .navbar {
     display: flex;
