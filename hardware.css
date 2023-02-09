@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.container-fluid7 img {
+    padding: 0px 10px;
+}
+
+.navbar-links a {
+    padding: 0px 0px 0px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+.bag {
+    display: flex;
+    justify-content: center;
+}
+.wishlist {
+    display: flex;
+    justify-content: center;
+}
+.account {
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid1 {
+    background:#D2E9FC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-fluid2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 400px;
+}
+
+.container-fluid3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 400px;
+}
+
+.container-fluid4 {
+    position: relative;
+    left: 400px;
+    font-size: large;
+}
+
+.container-fluid5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 400px;
+    
+}
+
+.container-fluid6 {
+    position: relative;
+    left: 400px;
+    font-size: large;
+    padding-top: 15px;
+    
+}
+
+.container-fluid7 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 400px;
+    flex-wrap: wrap;
+}
+
+.container-fluid9 {
+    position: relative;
+    left: 400px;
+    font-size: large;
+    padding-top: 15px;
+}
+
+.container-fluid10 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 400px;
+    flex-wrap: wrap;
+}
+
+.container-fluid11 {
+    font-size: small;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 50px;
+}
+
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.toggle-button {
+    display: flex;
+    position: absolute;
+    top: .75rem;
+    left: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navbar {
+        flex-direction: column;
+        align-items: flex-start;
+}
+
+
+.navbar-links {
+    height: 100%;
+    display: none;
+    width: 100%;
+ }
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbar-links ul li {
+        text-align: center;
+}
+
+ .navbar-links ul li a {
+        padding: .5rem 1rem;
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 1rem;   
+ }
+
+ .navbar-links li {
+    list-style: none;
+}
+
+.navbar-links.active {
+        display: flex;
+}
