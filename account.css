@@ -12,6 +12,26 @@ body {
     overflow: hidden;
 }
 
+a#login-button{
+  background-color: #66ffcc;
+  border-radius: 25px;
+  color: #253858;
+  display: block;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-align: center;
+}
+a#login-button:active {
+  outline: 0;
+}
+ 
+a#login-button:hover {
+  background-color: #2ac28f;
+  font-weight: 400;
+  outline: 0;
+}
+
 .center{
   position: absolute;
   top: 50%;
