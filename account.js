@@ -1,3 +1,9 @@
+if (username.length === 0 || password.length === 0) {
+    alert("Username and password must be filled!");
+    return;
+  }
+  
+  
   function auth(event) {
     event.preventDefault();
   
