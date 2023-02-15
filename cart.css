@@ -15,7 +15,7 @@ body {
 
 .container-fluid1 {
     background:#D2E9FC;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 
 
@@ -38,8 +38,13 @@ body {
     padding-top: 20px;
     justify-content: space-between;
     padding: 10px 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     flex-wrap: wrap;
-    
+}
+
+.container-fluid5 .electronics {
+    padding-top: 10px;
 }
 
 .container-fluid10 {
@@ -55,7 +60,7 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 100px;
+    top: 150px;
  }
 
 
@@ -123,4 +128,48 @@ body {
 
 .navbar-links.active {
         display: flex;
+}
+
+@media(max-width:1227px){
+    .container-fluid4 {
+        display: flex;
+        justify-content: center;
+    }
+    .container-fluid5 .electronics {
+        margin: 10px;
+    }
+    .container-fluid5 {
+        display: flex;
+        justify-content: center;
+    }
+    .container-fluid5 .hardware {
+        margin: 10px;
+    }
+    .container-fluid5 .console {
+        margin: 10px;
+    }
+    .container-fluid9 {
+        display: flex;
+        justify-content: center;
+    }
+    .container-fluid10 {
+        display: flex;
+        justify-content: center;
+    }
+    .container-fluid10 .electronics {
+        margin: 10px;
+    }
+    .container-fluid10 .hardware {
+        margin: 10px;
+    }
+    .container-fluid10 .console {
+        margin: 10px;
+    }
+    .container-fluid11 {
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 150px;
+     }
 }
