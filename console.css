@@ -17,23 +17,6 @@ body {
     padding: 0px 0px 0px;
 }
 
-.home {
-    display: flex;
-    justify-content: center;
-}
-.bag {
-    display: flex;
-    justify-content: center;
-}
-.wishlist {
-    display: flex;
-    justify-content: center;
-}
-.account {
-    display: flex;
-    justify-content: center;
-}
-
 .container-fluid1 {
     background:#D2E9FC;
     padding-top: 10px;
@@ -43,6 +26,7 @@ body {
 .container-fluid2 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 10px 400px;
 }
 
@@ -60,6 +44,7 @@ body {
 
 .container-fluid5 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px 400px;
     
@@ -107,14 +92,6 @@ body {
     padding: 10px 400px;
     flex-wrap: wrap;
 }
-
-.container-fluid13 {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 400px;
-    flex-wrap: wrap;
-}
-
 
 .navbar {
     display: flex;
@@ -180,4 +157,57 @@ body {
 
 .navbar-links.active {
         display: flex;
+}
+
+@media(max-width:1227px){
+    .container-fluid3 {
+        display: none;
+    }
+    .container-fluid2 {
+        display: flex;
+        justify-content: center;
+    }
+    .container-fluid2 .electronics {
+        margin: 10px;
+    }
+    .container-fluid2 .hardware {
+        margin: 10px;
+    }
+    .container-fluid2 .console {
+        margin: 10px;
+    }
+    .container-fluid4 {
+        display: flex;
+        justify-content: center;
+    }
+    .container-fluid5 .electronics {
+        margin: 10px;
+    }
+    .container-fluid5 {
+        display: flex;
+        justify-content: center;
+    }
+    .container-fluid5 .hardware {
+        margin: 10px;
+    }
+    .container-fluid5 .console {
+        margin: 10px;
+    }
+    .container-fluid9 {
+        display: flex;
+        justify-content: center;
+    }
+    .container-fluid10 {
+        display: flex;
+        justify-content: center;
+    }
+    .container-fluid10 .electronics {
+        margin: 10px;
+    }
+    .container-fluid10 .hardware {
+        margin: 10px;
+    }
+    .container-fluid10 .console {
+        margin: 10px;
+    }
 }
