@@ -32,7 +32,7 @@ body {
 .account {
     display: flex;
     justify-content: center;
-}
+} 
 
 .container-fluid1 {
     background:#D2E9FC;
@@ -54,8 +54,8 @@ body {
 }
 
 .container-fluid4 {
-    position: relative;
-    left: 400px;
+    position: relative ;
+    text-align: center;
     font-size: large;
 }
 
@@ -83,10 +83,11 @@ body {
 
 .container-fluid9 {
     position: relative;
-    left: 400px;
+    text-align: center;
     font-size: large;
     padding-top: 15px;
 }
+
 
 .container-fluid10 {
     display: flex;
