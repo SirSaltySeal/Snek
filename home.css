@@ -12,8 +12,7 @@ body {
     padding: 0px 0px 0px;
 }
 
-<<<<<<< HEAD
-=======
+
 .home {
     display: flex;
     justify-content: center;
@@ -49,12 +48,7 @@ body {
 }
 
 .container-fluid4 {
-<<<<<<< HEAD
     padding: 0px 400px;
-=======
-    position: relative ;
-    text-align: center;
->>>>>>> 8b7df3a642a499f83b60f626e19bbde0a3654f02
     font-size: large;
 }
 
@@ -66,12 +60,7 @@ body {
 }
 
 .container-fluid9 {
-<<<<<<< HEAD
-   padding: 0px 400px;
-=======
-    position: relative;
-    text-align: center;
->>>>>>> 8b7df3a642a499f83b60f626e19bbde0a3654f02
+    padding: 0px 400px;
     font-size: large;
     padding-top: 15px;
 }
@@ -134,8 +123,8 @@ body {
 }
 
 .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
