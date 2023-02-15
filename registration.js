@@ -12,14 +12,14 @@ $(document).ready(function () {
       //for now we assume all information is valid
       //you are to do your own data validation
       let userName = $("#username").val();
-      let Email = $("#email").val();
+      let email = $("#email").val();
       let password = $("#password").val();
   
       //[STEP 3]: get form values when user clicks on send
       //Adapted from restdb api
       let jsondata = {
         "username": userName,
-        "email": Email,
+        "email": email,
         "password": password
       };
   
