@@ -45,9 +45,11 @@ body {
 .container-fluid5 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px 400px;
-    
+    padding: 10px 400px;  
+}
+
+.container-fluid5 .image1{
+    margin-right: 150px;
 }
 
 .container-fluid6 {
@@ -73,9 +75,12 @@ body {
 
 .container-fluid10 {
     display: flex;
-    justify-content: space-between;
     padding: 10px 400px;
     flex-wrap: wrap;
+}
+
+.container-fluid10 .image1{
+    margin-right: 150px;
 }
 
 .container-fluid11 {
