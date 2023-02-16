@@ -1,6 +1,6 @@
 $(document).ready(function () {
   const APIKEY = "63ea2122478852088da68193";
-  $("#end").on("click", function (e) { 
+  $("#submit").on("click", function (e) { 
     e.preventDefault();
     getContacts();
   });
@@ -25,8 +25,8 @@ $(document).ready(function () {
 
         let username = response[i].username
         let password = response[i].password
-        let log_user = $("#loginuser").val();
-        let log_pass = $("#logpass").val();
+        let log_user = $("#user").val();
+        let log_pass = $("#pass").val();
 
         if((username === log_user) && (password === log_pass)){
           window.location.assign('index.html');
