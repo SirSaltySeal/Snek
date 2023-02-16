@@ -1,5 +1,6 @@
 $(document).ready(function () {
   const APIKEY = "63ea2122478852088da68193";
+  $("#add-update-msg").hide();
   $("#submit").on("click", function (e) { 
     e.preventDefault();
     getContacts();
@@ -31,9 +32,7 @@ $(document).ready(function () {
         if((username === log_user) && (password === log_pass)){
           window.location.assign('index.html');
         } else {
-          document.getElementById("user_info").style.visibility = "hidden";
-          document.getElementById("error").style.visibility = "visible";
-          document.getElementById("error").style.zIndex = "1";
+          $("#add-update-msg").show().fadeOut(3000);
         }
       }
     });
