@@ -185,6 +185,9 @@ body {
         display: flex;
         justify-content: center;
     }
+    .container-fluid5 .image1{
+        margin-right: 0px;
+    }
     .container-fluid5 .electronics {
         margin: 10px;
     }
@@ -201,6 +204,9 @@ body {
     .container-fluid9 {
         display: flex;
         justify-content: center;
+    }
+    .container-fluid10 .image1{
+        margin-right: 0px;
     }
     .container-fluid10 {
         display: flex;
