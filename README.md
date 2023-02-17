@@ -4,11 +4,17 @@ electronic and hardware products like Graphical Proceessing Units (GPU)
 or consoles like PS5. The website is designed in a way that is intuitive and minimalistic.
 
 Design
-The design is minimalistic and direct. The audience can easily navigate around the webpage as the text are placed at strategic locations
+The design is minimalistic and direct. The audience can easily navigate around the webpage as the text are placed at strategic locations.
 
 Features
-There is an interactive payment page which shows animations when customers
-input their credit card credentials.
+
+- Login and Registration is connected to restDB database. When the user logs his/her credentials
+  into the registration form, it creates login credentials in the restDb database. When the user
+  wants to log in, the login credentials that the user input will be compared with the database.
+  If there is a match the user can log in but if it did not match a pop-up will notify the user that
+  either username or password is invalid.
+- There is an interactive payment page which shows animations when customers
+  input their credit card credentials.
 
 Technologies Used
 HTML, CSS, Javascript, JQuery, Bootstrap 5
@@ -34,6 +40,9 @@ References
 
 - Multi Step Progress Bar Pure CSS HTML |Step progress bar CSS
   https://www.youtube.com/watch?v=8M3Kox6nO64&list=PLA2I3BM7e7ofro5BmzFcbcijqrDhFkGTp&index=17&t=267s&ab_channel=TheWebnuts-OnlineTutorials
+
+Media
+All photos used here are made in Adobe Illustrator by Surendra Rikesh.
 
 Acknowledgements
 I received inspiration for this project from Shoppee and Amazon.
